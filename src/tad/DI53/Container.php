@@ -1,6 +1,16 @@
 <?php
 
-class tad_DI52_Container implements ArrayAccess {
+namespace DI53;
+
+use Exception;
+use InvalidArgumentException;
+use ReflectionClass;
+use ReflectionException;
+use ReflectionMethod;
+use ReflectionParameter;
+use RuntimeException;
+
+class tad_DI52_Container implements \ArrayAccess {
 
 	/**
 	 * @var boolean
@@ -202,7 +212,7 @@ class tad_DI52_Container implements ArrayAccess {
 	public function getVar($key) {
 		try {
 			return $this->offsetGet($key);
-		} catch (RuntimeException $e) {
+		} catch (\RuntimeException $e) {
 			return null;
 		}
 	}
@@ -244,7 +254,7 @@ class tad_DI52_Container implements ArrayAccess {
 			return $this->resolve($offset);
 		}
 
-		throw new RuntimeException("Nothing is bound to the key '{$offset}'");
+		throw new \RuntimeException("Nothing is bound to the key '{$offset}'");
 	}
 
 	/**
@@ -266,7 +276,7 @@ class tad_DI52_Container implements ArrayAccess {
 		if (!isset($this->bindings[$classOrInterface])) {
 			try {
 				return $this->build($classOrInterface, true);
-			} catch (Exception $e) {
+			} catch (\Exception $e) {
 				// continue... we tried an early resolution
 			}
 		}

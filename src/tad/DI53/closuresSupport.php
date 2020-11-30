@@ -1,4 +1,6 @@
 <?php
+namespace DI53;
+
 /**
  * Builds and returns a closure to be used to lazily make objects on PHP 5.3+, call a method on them and return the
  * method value.

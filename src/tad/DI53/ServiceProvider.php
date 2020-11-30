@@ -1,5 +1,7 @@
 <?php
 
+namespace DI53;
+
 /**
  * Class tad_DI52_ServiceProvider
  * @codeCoverageIgnore

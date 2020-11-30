@@ -1,5 +1,7 @@
 <?php
 
+namespace DI53;
+
 /**
  * Interface tad_DI52_ContainerInterface
  *

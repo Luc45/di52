@@ -1,5 +1,7 @@
 <?php
 
+namespace DI53;
+
 class tad_DI52_ProtectedValue
 {
 

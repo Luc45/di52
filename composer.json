@@ -9,9 +9,9 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "tad_DI52_": [
-        "src/"
+    "psr-4": {
+      "DI53\\": [
+        "src/DI53/"
       ]
     }
   },

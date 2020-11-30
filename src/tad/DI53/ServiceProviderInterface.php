@@ -1,5 +1,7 @@
 <?php
 
+namespace DI53;
+
 interface tad_DI52_ServiceProviderInterface
 {
     /**
