@@ -18,19 +18,5 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.3"
-  },
-  "require-dev": {
-    "phpunit/phpunit-php52": "dev-3.6.12-php52",
-    "phpunit/phpunit-mock-objects-php52": "dev-1.1.0-php52"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/garex/phpunit"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/garex/phpunit-mock-objects"
-    }
-  ]
+  }
 }
