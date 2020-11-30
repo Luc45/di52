@@ -10,9 +10,7 @@
   ],
   "autoload": {
     "psr-0": {
-      "tad_DI52_": [
-        "src/"
-      ]
+      "tad_DI52_": "src/"
     }
   },
   "minimum-stability": "dev",
