@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "DI53\\": "src/DI53/"
+      "DI53\\": "src/tad/DI53/"
     }
   },
   "minimum-stability": "dev",
