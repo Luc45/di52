@@ -1,6 +1,12 @@
 <?php
 namespace DI53;
 
+use Closure;
+use ReflectionClass;
+use ReflectionException;
+use ReflectionMethod;
+use RuntimeException;
+
 /**
  * Builds and returns a closure to be used to lazily make objects on PHP 5.3+, call a method on them and return the
  * method value.

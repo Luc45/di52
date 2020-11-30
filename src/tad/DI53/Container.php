@@ -2,6 +2,7 @@
 
 namespace DI53;
 
+use ArrayAccess;
 use Exception;
 use InvalidArgumentException;
 use ReflectionClass;
@@ -10,7 +11,7 @@ use ReflectionMethod;
 use ReflectionParameter;
 use RuntimeException;
 
-class tad_DI52_Container implements \ArrayAccess {
+class tad_DI52_Container implements ArrayAccess {
 
 	/**
 	 * @var boolean
